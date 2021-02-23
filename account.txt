@@ -1,0 +1,7 @@
+name email
+as   as@gmail.com
+aa   aa@gmail.com
+am   am@yahoo.com
+n    n@redit.in
+as   ass@yahoo.com 
+___the end___ 
