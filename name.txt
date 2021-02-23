@@ -1,7 +1,0 @@
-name    age 
-Ashish  21
-Navin   25
-Ifra    26
-pagal   24
-tanvi   23
-rohit   30:
