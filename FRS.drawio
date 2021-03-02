@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T06:08:55.287Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="IfGOqz1lUxPbIQUW0rJA" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-02T06:10:27.926Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="xy66CN8k03X-WuHcmpg1" version="14.4.3" type="github">
   <diagram id="qsO5VmVt4Xt4Ev6_ihJ5" name="Page-1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -44,7 +44,7 @@
           <mxGeometry y="98" width="370" height="72" as="geometry" />
         </mxCell>
         <mxCell id="_AptsjTeeoTQ7fL0EDX9-14" value="Ticket" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="480" y="440" width="200" height="214" as="geometry" />
+          <mxGeometry x="480" y="440" width="200" height="240" as="geometry" />
         </mxCell>
         <mxCell id="_AptsjTeeoTQ7fL0EDX9-15" value="+from:String&#xa;+to:String&#xa;+pnr:String&#xa;+flight:Flighr&#xa;+seatNo:String&#xa;+price:float&#xa;+canaelled:boolean&#xa;+passage:Passage&#xa;+arrivalDateTime:String&#xa;+departureDateTime:String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_AptsjTeeoTQ7fL0EDX9-14">
           <mxGeometry y="26" width="200" height="154" as="geometry" />
@@ -52,8 +52,8 @@
         <mxCell id="_AptsjTeeoTQ7fL0EDX9-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="_AptsjTeeoTQ7fL0EDX9-14">
           <mxGeometry y="180" width="200" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="_AptsjTeeoTQ7fL0EDX9-17" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_AptsjTeeoTQ7fL0EDX9-14">
-          <mxGeometry y="188" width="200" height="26" as="geometry" />
+        <mxCell id="_AptsjTeeoTQ7fL0EDX9-17" value="+checkStatus():String&#xa;+getFlightDurnation():Int&#xa;+cancel():void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_AptsjTeeoTQ7fL0EDX9-14">
+          <mxGeometry y="188" width="200" height="52" as="geometry" />
         </mxCell>
         <mxCell id="_AptsjTeeoTQ7fL0EDX9-19" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
